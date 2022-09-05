@@ -3,9 +3,13 @@ const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 require('dotenv').config()
-
-const PORT=5000||process.env.PORT;
+const PORT=process.env.PORT||5000;
 const app = express();
+
+//setting middleware
+app.use(cors());
+app.use(express.json());
+app.use("/", router);
 
 if ( process.env.NODE_ENV == "production"){
   app.use(express.static("client/build"));
@@ -15,10 +19,7 @@ if ( process.env.NODE_ENV == "production"){
   })
 }
 
-//setting middleware
-app.use(cors());
-app.use(express.json());
-app.use("/", router);
+
 
 
 const contactEmail = nodemailer.createTransport({
