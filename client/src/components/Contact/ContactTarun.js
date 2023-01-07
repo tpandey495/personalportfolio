@@ -18,7 +18,7 @@ const handleSubmit = async (e) => {
       sub:sub.value,
       message: message.value,
     };
-    let response = await fetch("https://tarunpandey.herokuapp.com/contact", {
+    let response = await fetch("localhost:5000/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
