@@ -49,7 +49,7 @@ function About() {
               <div className="bars">
                 <div className="info">
                   <span>CSS</span>
-                  <span>60%</span>
+                  <span>80%</span>
                 </div>
                 <div className="line css" />
               </div>
@@ -65,7 +65,7 @@ function About() {
               <div className="bars">
                 <div className="info">
                   <span>React Js</span>
-                  <span>60%</span>
+                  <span>80%</span>
                 </div>
                 <div className="line js" />
               </div>
@@ -74,7 +74,7 @@ function About() {
               <div className="bars">
                 <div className="info">
                   <span>Node js</span>
-                  <span>70%</span>
+                  <span>60%</span>
                 </div>
                 <div className="line php" />
               </div>
@@ -83,7 +83,7 @@ function About() {
               <div className="bars">
                 <div className="info">
                   <span>MySQL</span>
-                  <span>70%</span>
+                  <span>60%</span>
                 </div>
                 <div className="line mysql" />
               </div>
