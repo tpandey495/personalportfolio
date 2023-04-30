@@ -3,8 +3,7 @@ import {  Row ,Col} from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './Contact.css';
-import {useState} from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 function ResumeNew() {
 const [state, handleSubmit] = useForm("xyyaozve");
