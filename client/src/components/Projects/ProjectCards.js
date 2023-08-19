@@ -18,10 +18,6 @@ function ProjectCards(props) {
         </Button>
       </Card.Body>
     </Card>
-
-    
-    
-
   );
 }
 export default ProjectCards;
