@@ -1,6 +1,6 @@
 import React from 'react'
 import Sphere from 'Assets/images/Sphere.png';
-import "./index.css";
+import "styles/earthsphere.css";
 
 const EarthSphere = () => {
   return (

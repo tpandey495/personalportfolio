@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import "./Skill.css";
+import Particle from "./Particle";
+import "styles/Skill.css";
 
 function About() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import rocket from "Assets/images/landing-rocket@2x.webp"
-import './index.css';
+ import 'styles/Rocketanimation.css';
 const Rocketanimation = () => {
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import earth from 'Assets/images/earth.png';
-import './index.css';
+import 'styles/earthanimation.css';
 
 const EarthAnimation = () => {
   return (
@@ -10,4 +10,4 @@ const EarthAnimation = () => {
   )
 }
 
-export default EarthAnimation
+export default EarthAnimation;

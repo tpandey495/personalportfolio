@@ -13,7 +13,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Skill from 'components/Skill';
-import Projects from 'components/Projects';
+import Projects from 'pages/Project';
 import Contact from 'components/Contact';
 
 function App() {

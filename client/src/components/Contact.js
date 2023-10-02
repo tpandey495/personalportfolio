@@ -2,7 +2,7 @@ import React from "react";
 import {  Row ,Col} from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import './Contact.css';
+import 'styles/Contact.css';
 import { useForm } from '@formspree/react';
 
 function ResumeNew() {

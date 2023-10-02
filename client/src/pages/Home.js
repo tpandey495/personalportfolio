@@ -3,7 +3,7 @@ import Particle from "components/Particle";
 import Introduction from "components/Introduction";
 import Rocketanimation  from "components/Rocketanimation";
 import EarthAnimation from "components/EarthAnimation";
-import EarthSphere from "components/EarthSphere";
+import EarthSphere from "components/earthsphere";
 import About from "components/About";
 
 function Home() {

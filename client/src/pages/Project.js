@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+import ProjectCard from "components/ProjectCards";
+import Particle from "components/Particle";
 import Capture from "Assets/Projects/Capture.png";
 import clothify from "Assets/Projects/clothify.png";
 import tutedude from 'Assets/Projects/tutedude.png';

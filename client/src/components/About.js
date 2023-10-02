@@ -1,5 +1,6 @@
 import React from "react";
-import "./index.css";
+import "styles/About.css";
+
 const About=()=>{
   return (
     <div className="home-about">
