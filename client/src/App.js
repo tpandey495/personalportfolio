@@ -9,12 +9,11 @@ import {
   Navigate
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
-import "./style.css";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Skill from 'components/Skill';
 import Projects from 'pages/Project';
 import Contact from 'components/Contact';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);

@@ -1,5 +1,6 @@
 import React from 'react'
 import Type from './Type';
+import  'styles/Introduction.css';
 
 const Indroduction= () => {
   return (

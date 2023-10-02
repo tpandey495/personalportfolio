@@ -7,6 +7,7 @@ import clothify from "Assets/Projects/clothify.png";
 import tutedude from 'Assets/Projects/tutedude.png';
 import retink from "Assets/Projects/retink.png";
 import meetfrontend from 'Assets/Projects/meetfrontend.png';
+import 'styles/Project.css';
 
 const Projects=()=>{
   return (

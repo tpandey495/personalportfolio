@@ -6,8 +6,9 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import 'styles/Footer.css';
 
-function Footer() {
+const Footer=()=>{
   let date = new Date();
   let year = date.getFullYear();
   return (

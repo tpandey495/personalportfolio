@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import * as AiIcons from "react-icons/ai";
 import * as GiIcons from "react-icons/gi";
 import * as ImIcons from "react-icons/im";
+import   'styles/Navbar.css';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

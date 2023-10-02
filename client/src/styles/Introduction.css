@@ -1,0 +1,25 @@
+.home-content {
+    padding: 9rem 0 2rem !important;
+     color: whitesmoke;
+     text-align: left;
+    }
+   
+   .home-header {
+     margin-top:0.1%;
+     padding-top: 40px !important;
+   }
+   
+   
+   .heading {
+     font-size: 2.4em !important;
+     padding-left: 50px !important;
+   }
+   
+   .heading-name {
+     font-size: 2.5em !important;
+     padding-left: 45px !important;
+   }
+   
+   .main-name {
+     color: #cd5ff8;
+   }
