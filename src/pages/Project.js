@@ -17,9 +17,9 @@ const Projects=()=>{
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <h2 style={{ color: "white" }}>
             Projects
-        </p>
+        </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -28,7 +28,7 @@ const Projects=()=>{
               title="Task Exhibitor"
               description="Task Exhibitor is task and project management system designed to divide and
               prioritize task in way that make individual and organization more productive and focused.."
-              link="https://github.com/praveen4star/Tracker"
+              link="https://taskexhibitor.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -37,12 +37,12 @@ const Projects=()=>{
               isBlog={false}
               title="Clothify"
               description="Clothify a market place to buy and sell fancy clothes.It provides basic feature of ecommerce store."
-              link="https://clothifystore.onrender.com/"
+              link="https://clothifystore.netlify.app/"
             />
           </Col>
         </Row>
         <h1 className="project-heading">
-          Frontend <strong className="purple">Projects </strong>
+          Frontend <strong className="purple">Design</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
@@ -50,17 +50,16 @@ const Projects=()=>{
               imgPath={retink}
               isBlog={false}
               title="Retink"
-              description="Hghly scalable YouTube clone app built  using modern web technologies, including React, Redux, and Tailwind CSS, and is powered by YouTube API v3. It offers an array of features, such as the ability to search and watch videos, live chat with other users, and discover related videos."
-              link="https://tarunyoutube.netlify.app/"
+              description="As part of a  assignment, Developed  landing page for 'Retink' using the  ReactJS framework, focusing on maximizing reusability and maintaining best practices in web development."
+              link="https://github.com/tpandey495/retink"
             />
           </Col> 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tutedude}
               isBlog={false}
-              title="Task Exhibitor"
-              description="Task Exhibitor is task and project management system designed to divide and
-              prioritize task in way that make individual and organization more productive and focused.."
+              title="Tute Dude"
+              description="Created the TuteDude Dashboard as an assignment, leveraging the power of React JS. This carefully crafted dashboard serves as a dynamic platform designed to offer a rich and user-friendly experience."
               link="https://tutedudereact.netlify.app/"
             />
           </Col>
@@ -69,9 +68,9 @@ const Projects=()=>{
             <ProjectCard
               imgPath={meetfrontend}
               isBlog={false}
-              title="Clothify"
-              description="Clothify a market place to buy and sell fancy clothes.It provides basic feature of ecommerce store."
-              link="https://clothifystore.onrender.com/"
+              title="Meet  Dashboard"
+              description="Dashboard, developed as part of a assignment, provides a  candidate profile for job applications, presenting crucial personal information, qualifications, work experience, and key skills in an organized, accessible format."
+              link="https://github.com/tpandey495/meet-frontend-assesment"
             />
           </Col>
         </Row>
