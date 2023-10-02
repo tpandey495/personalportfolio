@@ -1,8 +1,15 @@
 .rocket-img{
-    margin-top:300%;
+    margin-top:140%;
+    text-align: center;
+}
+
+@media only  screen and (max-width:600px){
+    .rocket-img{
+        margin-top:40%;
+    }
 }
 
 .rocket-img img{
-    width:100px;
-    height:268px;
+    width:111px;
+    height:395px;
 }
