@@ -5,7 +5,7 @@ import 'styles/earthanimation.css';
 const EarthAnimation = () => {
   return (
     <div className="earth-animation">
-        <img src={earth} alt="earth" class="earth-image"/>
+        <img src={earth} alt="earth" className="earth-image"/>
     </div>
   )
 }

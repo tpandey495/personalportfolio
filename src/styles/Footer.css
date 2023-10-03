@@ -5,6 +5,9 @@
   padding-bottom: 8px !important ;
 }
 
+.footer .social-icons{
+   cursor:pointer;
+}
 
 .footer-copywright {
   text-align: center !important;
@@ -39,3 +42,14 @@
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+.social-icons {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.icon-colour {
+  color: #700c86 !important;
+}
+
